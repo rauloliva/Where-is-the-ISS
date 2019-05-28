@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/ISS.png">
+    <link rel="stylesheet" href="./styles/leaflet.css">
+    <script src="./js/leaflet.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Where is the ISS now?</title>
+</head>
+<body>
+    <h1>Where is the International Space Station now?</h1>
+    <h2>
+        Welcome dear visitor! problably you're not wondering what this webpage is here for<br>
+        but in case you are, the purpuse of this webpage is to represent the actual ISS's<br>
+        (International Space Station) position on earth using the latitude and longitude<br>
+        coordinates.
+    </h2>
+    <h2>
+        In order to get started just press the bottom '<i>Get Location</i>'<br>
+        below you can see the map with the actual ISS's position<br>
+        you'll also see extra information about ISS<br>
+        and of course the link where tha data is being obtained.
+    </h2>
+    <div class="criteria">
+        Set the units by:
+        <input type="radio" name="units" id="klm" checked><b>Kilometers</b>
+        <input type="radio" name="units" id="miles"><b>Miles</b>
+    </div>
+    <div class="ISS-container">
+        <div class="actions">
+            <h2><button id="btn-location">Get Location</button></h2>
+            <h2 id='link'>From: https://api.wheretheiss.at/v1/satellites/25544 </h2>
+        </div>
+        <div id="mapISS">
+            <img id='fakeImg' src="img/fachada.jpg" width="565" height="410" alt="">
+        </div>
+        <div class="info-container"><h2 id="adv" style="padding-top: 30%">The information will appear here</h2></div>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+</html>

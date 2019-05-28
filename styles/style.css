@@ -1,0 +1,102 @@
+body{
+    background: radial-gradient(circle,grey 20%,black 80%);
+    color: rgb(247, 203, 6);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1{
+    text-shadow: 5px 5px 3px rgb(161, 160, 160);
+    font-size: 50px;
+}
+
+button{
+    width: auto;
+    height: 35px;
+    font-size: 20px;
+    border: 2px solid white;
+    background: rgb(34, 0, 128);
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+    font-weight: bold
+}
+
+button:hover{
+    border: 2px solid rgb(34, 0, 128);
+    background: white;
+    color: rgb(34, 0, 128);
+    transition: .8s;
+    font-weight: bold
+}
+
+.criteria{
+    color: white;
+    font-size: 25px;
+}
+
+.ISS-container{
+    margin: 5%;
+    padding: 2%;
+    height: 530px;
+    width: 85%;
+    background: rgb(93, 93, 95);
+}
+
+#mapISS{ 
+    height: 410px; 
+    width: 50%;
+    border: 3px solid blue;
+    float:left
+}
+
+.info-container{
+    width: 47.5%;
+    height: 410px;
+    border: 3px solid white;
+    float:left;
+    margin-left: 1%;
+    background: rgb(44, 43, 43);
+}
+
+@media only screen and (max-width:800px){
+    h1{
+        font-size: 200%
+    }
+    .ISS-container{
+        margin: 0;
+        width: 100%;
+        height: 900px;
+    }
+    button{
+        font-size: 25px;
+        margin-left: 5%
+    }
+    #mapISS{
+        height: 350px; 
+        width: 100%;
+    }
+    #fakeImg{
+        width: 100%;
+        height: 350px; 
+    }
+    .info-container{
+        width: 100%;
+        height: 410px; 
+        margin-left: 0;
+        margin-top: 3%;   
+    }
+    .actions{
+        width: 100%;
+        padding-left: 10%
+    }
+    #btn-location{
+        float:left
+    }
+    #link{
+        display: none
+    }
+    .criteria{
+        font-size: 28px
+    }
+}
