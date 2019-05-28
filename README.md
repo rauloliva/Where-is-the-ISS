@@ -6,6 +6,11 @@
 </h3>
 <h3>
   Using pure javascript functionality to fetch the JSON data from the <a href='https://wheretheiss.at'>wheretheiss</a> API<br>
-  using the latitude and longitude to display the exact coordinates within a map, thanks to the<a      href='https://leafletjs.com/index.html'>leafletjs</a>library<br>
+  using the latitude and longitude to display the exact coordinates within a map, thanks to the <a      href='https://leafletjs.com/index.html'>leafletjs </a>library<br>
 </h3>
+<p>Screenshot 1</p>
+<img src="/screenshots/view.png/">
+
+<p>Screenshot 2</p>
+<img src="/screenshots/view.png/">
 
