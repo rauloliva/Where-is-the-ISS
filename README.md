@@ -8,9 +8,11 @@
   Using pure javascript functionality to fetch the JSON data from the <a href='https://wheretheiss.at'>wheretheiss</a> API<br>
   using the latitude and longitude to display the exact coordinates within a map, thanks to the <a      href='https://leafletjs.com/index.html'>leafletjs </a>library<br>
 </h3>
-<p>Screenshot 1</p>
+<p><i>Screenshot 1</i></p>
+<p>Main Comonents: (The map and the ISS's information)</p>
 <img src="/screenshots/view.png/">
 
-<p>Screenshot 2</p>
-<img src="/screenshots/view.png/">
+<p><i>Screenshot 2</i></p>
+<p>The deafult value in order to get the data from the API is kilometers</p>
+<img src="/screenshots/viewUnits.png/">
 
